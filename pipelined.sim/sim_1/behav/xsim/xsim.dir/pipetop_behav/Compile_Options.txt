@@ -1,1 +1,0 @@
--wto "ee2a9eb60d0a4c87bf866307354037f4" --incr --debug "typical" --relax --mt "8" -L "xil_defaultlib" -L "fifo_generator_v13_2_5" -L "blk_mem_gen_v8_4_4" -L "uvm" -L "unisims_ver" -L "unimacro_ver" -L "secureip" -L "xpm" --snapshot "pipetop_behav" "xil_defaultlib.pipetop" "xil_defaultlib.glbl" -log "elaborate.log" 
