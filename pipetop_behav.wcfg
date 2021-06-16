@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="pipetop_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="pipetop" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="12400000001fs"></ZoomEndTime>
+      <Cursor1Time time="262219347fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="255"></NameColumnWidth>
+      <ValueColumnWidth column_width="112"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="131" />
+   <wvobject fp_name="divider19" type="divider">
+      <obj_property name="label">TOP</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pipetop/CLK_I">
+      <obj_property name="ElementShortName">CLK_I</obj_property>
+      <obj_property name="ObjectShortName">CLK_I</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pipetop/RST_I">
+      <obj_property name="ElementShortName">RST_I</obj_property>
+      <obj_property name="ObjectShortName">RST_I</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pipetop/masterclock">
+      <obj_property name="ElementShortName">masterclock</obj_property>
+      <obj_property name="ObjectShortName">masterclock</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pipetop/clocklocked">
+      <obj_property name="ElementShortName">clocklocked</obj_property>
+      <obj_property name="ObjectShortName">clocklocked</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pipetop/deviceBRAM">
+      <obj_property name="ElementShortName">deviceBRAM</obj_property>
+      <obj_property name="ObjectShortName">deviceBRAM</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pipetop/deviceDDR3">
+      <obj_property name="ElementShortName">deviceDDR3</obj_property>
+      <obj_property name="ObjectShortName">deviceDDR3</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pipetop/deviceAPUFIFOWrite">
+      <obj_property name="ElementShortName">deviceAPUFIFOWrite</obj_property>
+      <obj_property name="ObjectShortName">deviceAPUFIFOWrite</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pipetop/deviceSwitchCountRead">
+      <obj_property name="ElementShortName">deviceSwitchCountRead</obj_property>
+      <obj_property name="ObjectShortName">deviceSwitchCountRead</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pipetop/deviceSwitchRead">
+      <obj_property name="ElementShortName">deviceSwitchRead</obj_property>
+      <obj_property name="ObjectShortName">deviceSwitchRead</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pipetop/deviceSPIWrite">
+      <obj_property name="ElementShortName">deviceSPIWrite</obj_property>
+      <obj_property name="ObjectShortName">deviceSPIWrite</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pipetop/deviceSPIRead">
+      <obj_property name="ElementShortName">deviceSPIRead</obj_property>
+      <obj_property name="ObjectShortName">deviceSPIRead</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pipetop/deviceUARTTxWrite">
+      <obj_property name="ElementShortName">deviceUARTTxWrite</obj_property>
+      <obj_property name="ObjectShortName">deviceUARTTxWrite</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pipetop/deviceUARTRxRead">
+      <obj_property name="ElementShortName">deviceUARTRxRead</obj_property>
+      <obj_property name="ObjectShortName">deviceUARTRxRead</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pipetop/deviceUARTByteCountRead">
+      <obj_property name="ElementShortName">deviceUARTByteCountRead</obj_property>
+      <obj_property name="ObjectShortName">deviceUARTByteCountRead</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pipetop/deviceGPUFIFOWrite">
+      <obj_property name="ElementShortName">deviceGPUFIFOWrite</obj_property>
+      <obj_property name="ObjectShortName">deviceGPUFIFOWrite</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pipetop/busstall">
+      <obj_property name="ElementShortName">busstall</obj_property>
+      <obj_property name="ObjectShortName">busstall</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pipetop/memre">
+      <obj_property name="ElementShortName">memre</obj_property>
+      <obj_property name="ObjectShortName">memre</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pipetop/memwe">
+      <obj_property name="ElementShortName">memwe[3:0]</obj_property>
+      <obj_property name="ObjectShortName">memwe[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pipetop/memaddress">
+      <obj_property name="ElementShortName">memaddress[31:0]</obj_property>
+      <obj_property name="ObjectShortName">memaddress[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider98" type="divider">
+      <obj_property name="label">memory</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pipetop/rv32iram/clka">
+      <obj_property name="ElementShortName">clka</obj_property>
+      <obj_property name="ObjectShortName">clka</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pipetop/rv32iram/ena">
+      <obj_property name="ElementShortName">ena</obj_property>
+      <obj_property name="ObjectShortName">ena</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pipetop/rv32iram/wea">
+      <obj_property name="ElementShortName">wea[3:0]</obj_property>
+      <obj_property name="ObjectShortName">wea[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pipetop/rv32iram/addra">
+      <obj_property name="ElementShortName">addra[14:0]</obj_property>
+      <obj_property name="ObjectShortName">addra[14:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pipetop/rv32iram/dina">
+      <obj_property name="ElementShortName">dina[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dina[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pipetop/rv32iram/douta">
+      <obj_property name="ElementShortName">douta[31:0]</obj_property>
+      <obj_property name="ObjectShortName">douta[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pipetop/rv32iram/clkb">
+      <obj_property name="ElementShortName">clkb</obj_property>
+      <obj_property name="ObjectShortName">clkb</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pipetop/rv32iram/enb">
+      <obj_property name="ElementShortName">enb</obj_property>
+      <obj_property name="ObjectShortName">enb</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pipetop/rv32iram/web">
+      <obj_property name="ElementShortName">web[3:0]</obj_property>
+      <obj_property name="ObjectShortName">web[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pipetop/rv32iram/addrb">
+      <obj_property name="ElementShortName">addrb[14:0]</obj_property>
+      <obj_property name="ObjectShortName">addrb[14:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pipetop/rv32iram/dinb">
+      <obj_property name="ElementShortName">dinb[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dinb[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pipetop/rv32iram/doutb">
+      <obj_property name="ElementShortName">doutb[31:0]</obj_property>
+      <obj_property name="ObjectShortName">doutb[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider129" type="divider">
+      <obj_property name="label">instruction fifo</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pipetop/nekoni/rv32instructionfifo/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pipetop/nekoni/rv32instructionfifo/srst">
+      <obj_property name="ElementShortName">srst</obj_property>
+      <obj_property name="ObjectShortName">srst</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pipetop/nekoni/rv32instructionfifo/din">
+      <obj_property name="ElementShortName">din[63:0]</obj_property>
+      <obj_property name="ObjectShortName">din[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pipetop/nekoni/rv32instructionfifo/wr_en">
+      <obj_property name="ElementShortName">wr_en</obj_property>
+      <obj_property name="ObjectShortName">wr_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pipetop/nekoni/rv32instructionfifo/rd_en">
+      <obj_property name="ElementShortName">rd_en</obj_property>
+      <obj_property name="ObjectShortName">rd_en</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pipetop/nekoni/rv32instructionfifo/dout">
+      <obj_property name="ElementShortName">dout[63:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pipetop/nekoni/rv32instructionfifo/full">
+      <obj_property name="ElementShortName">full</obj_property>
+      <obj_property name="ObjectShortName">full</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pipetop/nekoni/rv32instructionfifo/empty">
+      <obj_property name="ElementShortName">empty</obj_property>
+      <obj_property name="ObjectShortName">empty</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pipetop/nekoni/rv32instructionfifo/valid">
+      <obj_property name="ElementShortName">valid</obj_property>
+      <obj_property name="ObjectShortName">valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider96" type="divider">
+      <obj_property name="label">fetchcontrol</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pipetop/nekoni/rv32fetchcontrol/clock">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pipetop/nekoni/rv32fetchcontrol/resetn">
+      <obj_property name="ElementShortName">resetn</obj_property>
+      <obj_property name="ObjectShortName">resetn</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pipetop/nekoni/rv32fetchcontrol/fetchaddress">
+      <obj_property name="ElementShortName">fetchaddress[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fetchaddress[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pipetop/nekoni/rv32fetchcontrol/meminstrout">
+      <obj_property name="ElementShortName">meminstrout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">meminstrout[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pipetop/nekoni/rv32fetchcontrol/ififofull">
+      <obj_property name="ElementShortName">ififofull</obj_property>
+      <obj_property name="ObjectShortName">ififofull</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pipetop/nekoni/rv32fetchcontrol/ififowe">
+      <obj_property name="ElementShortName">ififowe</obj_property>
+      <obj_property name="ObjectShortName">ififowe</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pipetop/nekoni/rv32fetchcontrol/ififodin">
+      <obj_property name="ElementShortName">ififodin[63:0]</obj_property>
+      <obj_property name="ObjectShortName">ififodin[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pipetop/nekoni/rv32fetchcontrol/branchtargetknown">
+      <obj_property name="ElementShortName">branchtargetknown</obj_property>
+      <obj_property name="ObjectShortName">branchtargetknown</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pipetop/nekoni/rv32fetchcontrol/branchtarget">
+      <obj_property name="ElementShortName">branchtarget[31:0]</obj_property>
+      <obj_property name="ObjectShortName">branchtarget[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pipetop/nekoni/rv32fetchcontrol/PC">
+      <obj_property name="ElementShortName">PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pipetop/nekoni/rv32fetchcontrol/fetchmachinestate">
+      <obj_property name="ElementShortName">fetchmachinestate[1:0]</obj_property>
+      <obj_property name="ObjectShortName">fetchmachinestate[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pipetop/nekoni/rv32fetchcontrol/FETCH_IDLE">
+      <obj_property name="ElementShortName">FETCH_IDLE[1:0]</obj_property>
+      <obj_property name="ObjectShortName">FETCH_IDLE[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pipetop/nekoni/rv32fetchcontrol/FETCH_WAITREAD">
+      <obj_property name="ElementShortName">FETCH_WAITREAD[1:0]</obj_property>
+      <obj_property name="ObjectShortName">FETCH_WAITREAD[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pipetop/nekoni/rv32fetchcontrol/FETCH_QUEUE">
+      <obj_property name="ElementShortName">FETCH_QUEUE[1:0]</obj_property>
+      <obj_property name="ObjectShortName">FETCH_QUEUE[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pipetop/nekoni/rv32fetchcontrol/FETCH_BRANCHSTALL">
+      <obj_property name="ElementShortName">FETCH_BRANCHSTALL[1:0]</obj_property>
+      <obj_property name="ObjectShortName">FETCH_BRANCHSTALL[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider97" type="divider">
+      <obj_property name="label">dispatch</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pipetop/nekoni/rv32dispatch/clock">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pipetop/nekoni/rv32dispatch/resetn">
+      <obj_property name="ElementShortName">resetn</obj_property>
+      <obj_property name="ObjectShortName">resetn</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pipetop/nekoni/rv32dispatch/ififore">
+      <obj_property name="ElementShortName">ififore</obj_property>
+      <obj_property name="ObjectShortName">ififore</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pipetop/nekoni/rv32dispatch/ififoempty">
+      <obj_property name="ElementShortName">ififoempty</obj_property>
+      <obj_property name="ObjectShortName">ififoempty</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pipetop/nekoni/rv32dispatch/ififovalid">
+      <obj_property name="ElementShortName">ififovalid</obj_property>
+      <obj_property name="ObjectShortName">ififovalid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pipetop/nekoni/rv32dispatch/ififodout">
+      <obj_property name="ElementShortName">ififodout[63:0]</obj_property>
+      <obj_property name="ObjectShortName">ififodout[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pipetop/nekoni/rv32dispatch/branchtargetknown">
+      <obj_property name="ElementShortName">branchtargetknown</obj_property>
+      <obj_property name="ObjectShortName">branchtargetknown</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pipetop/nekoni/rv32dispatch/branchtarget">
+      <obj_property name="ElementShortName">branchtarget[31:0]</obj_property>
+      <obj_property name="ObjectShortName">branchtarget[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pipetop/nekoni/rv32dispatch/rd">
+      <obj_property name="ElementShortName">rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pipetop/nekoni/rv32dispatch/rwren">
+      <obj_property name="ElementShortName">rwren</obj_property>
+      <obj_property name="ObjectShortName">rwren</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pipetop/nekoni/rv32dispatch/rdatain">
+      <obj_property name="ElementShortName">rdatain[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rdatain[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pipetop/nekoni/rv32dispatch/rs1">
+      <obj_property name="ElementShortName">rs1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs1[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pipetop/nekoni/rv32dispatch/rs2">
+      <obj_property name="ElementShortName">rs2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs2[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pipetop/nekoni/rv32dispatch/rval1">
+      <obj_property name="ElementShortName">rval1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rval1[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pipetop/nekoni/rv32dispatch/rval2">
+      <obj_property name="ElementShortName">rval2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rval2[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pipetop/nekoni/rv32dispatch/memwe">
+      <obj_property name="ElementShortName">memwe[3:0]</obj_property>
+      <obj_property name="ObjectShortName">memwe[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pipetop/nekoni/rv32dispatch/memdin">
+      <obj_property name="ElementShortName">memdin[31:0]</obj_property>
+      <obj_property name="ObjectShortName">memdin[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pipetop/nekoni/rv32dispatch/memre">
+      <obj_property name="ElementShortName">memre</obj_property>
+      <obj_property name="ObjectShortName">memre</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pipetop/nekoni/rv32dispatch/memdout">
+      <obj_property name="ElementShortName">memdout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">memdout[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pipetop/nekoni/rv32dispatch/memaddress">
+      <obj_property name="ElementShortName">memaddress[31:0]</obj_property>
+      <obj_property name="ObjectShortName">memaddress[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pipetop/nekoni/rv32dispatch/opcode">
+      <obj_property name="ElementShortName">opcode[6:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[6:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pipetop/nekoni/rv32dispatch/func3">
+      <obj_property name="ElementShortName">func3[2:0]</obj_property>
+      <obj_property name="ObjectShortName">func3[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pipetop/nekoni/rv32dispatch/func7">
+      <obj_property name="ElementShortName">func7[6:0]</obj_property>
+      <obj_property name="ObjectShortName">func7[6:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pipetop/nekoni/rv32dispatch/selectimmedasrval2">
+      <obj_property name="ElementShortName">selectimmedasrval2</obj_property>
+      <obj_property name="ObjectShortName">selectimmedasrval2</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pipetop/nekoni/rv32dispatch/immed">
+      <obj_property name="ElementShortName">immed[31:0]</obj_property>
+      <obj_property name="ObjectShortName">immed[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pipetop/nekoni/rv32dispatch/aluop">
+      <obj_property name="ElementShortName">aluop[4:0]</obj_property>
+      <obj_property name="ObjectShortName">aluop[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pipetop/nekoni/rv32dispatch/PC">
+      <obj_property name="ElementShortName">PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pipetop/nekoni/rv32dispatch/readstate">
+      <obj_property name="ElementShortName">readstate[1:0]</obj_property>
+      <obj_property name="ObjectShortName">readstate[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pipetop/nekoni/rv32dispatch/execstrobe">
+      <obj_property name="ElementShortName">execstrobe</obj_property>
+      <obj_property name="ObjectShortName">execstrobe</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pipetop/nekoni/rv32dispatch/aluout">
+      <obj_property name="ElementShortName">aluout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">aluout[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pipetop/nekoni/rv32dispatch/rval2selector">
+      <obj_property name="ElementShortName">rval2selector[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rval2selector[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pipetop/nekoni/rv32dispatch/branchout">
+      <obj_property name="ElementShortName">branchout</obj_property>
+      <obj_property name="ObjectShortName">branchout</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pipetop/nekoni/rv32dispatch/postloadrwen">
+      <obj_property name="ElementShortName">postloadrwen</obj_property>
+      <obj_property name="ObjectShortName">postloadrwen</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pipetop/nekoni/rv32dispatch/poststorememwe">
+      <obj_property name="ElementShortName">poststorememwe</obj_property>
+      <obj_property name="ObjectShortName">poststorememwe</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pipetop/nekoni/rv32dispatch/instructiondelay">
+      <obj_property name="ElementShortName">instructiondelay[1:0]</obj_property>
+      <obj_property name="ObjectShortName">instructiondelay[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pipetop/nekoni/rv32dispatch/STRM_IDLE">
+      <obj_property name="ElementShortName">STRM_IDLE[1:0]</obj_property>
+      <obj_property name="ObjectShortName">STRM_IDLE[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pipetop/nekoni/rv32dispatch/STRM_READSTALL">
+      <obj_property name="ElementShortName">STRM_READSTALL[1:0]</obj_property>
+      <obj_property name="ObjectShortName">STRM_READSTALL[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pipetop/nekoni/rv32dispatch/STRM_WAITEXEC">
+      <obj_property name="ElementShortName">STRM_WAITEXEC[1:0]</obj_property>
+      <obj_property name="ObjectShortName">STRM_WAITEXEC[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider836" type="divider">
+      <obj_property name="label">integer registers</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pipetop/nekoni/rv32intregs/clock">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pipetop/nekoni/rv32intregs/rs1">
+      <obj_property name="ElementShortName">rs1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs1[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pipetop/nekoni/rv32intregs/rs2">
+      <obj_property name="ElementShortName">rs2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs2[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pipetop/nekoni/rv32intregs/rd">
+      <obj_property name="ElementShortName">rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pipetop/nekoni/rv32intregs/wren">
+      <obj_property name="ElementShortName">wren</obj_property>
+      <obj_property name="ObjectShortName">wren</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pipetop/nekoni/rv32intregs/datain">
+      <obj_property name="ElementShortName">datain[31:0]</obj_property>
+      <obj_property name="ObjectShortName">datain[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pipetop/nekoni/rv32intregs/rval1">
+      <obj_property name="ElementShortName">rval1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rval1[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pipetop/nekoni/rv32intregs/rval2">
+      <obj_property name="ElementShortName">rval2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rval2[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pipetop/nekoni/rv32intregs/registers">
+      <obj_property name="ElementShortName">registers[0:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">registers[0:31][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider790" type="divider">
+      <obj_property name="label">integer ALU</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pipetop/nekoni/rv32dispatch/rv32integeralu/aluout">
+      <obj_property name="ElementShortName">aluout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">aluout[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pipetop/nekoni/rv32dispatch/rv32integeralu/func3">
+      <obj_property name="ElementShortName">func3[2:0]</obj_property>
+      <obj_property name="ObjectShortName">func3[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pipetop/nekoni/rv32dispatch/rv32integeralu/val1">
+      <obj_property name="ElementShortName">val1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">val1[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pipetop/nekoni/rv32dispatch/rv32integeralu/val2">
+      <obj_property name="ElementShortName">val2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">val2[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pipetop/nekoni/rv32dispatch/rv32integeralu/aluop">
+      <obj_property name="ElementShortName">aluop[4:0]</obj_property>
+      <obj_property name="ObjectShortName">aluop[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider791" type="divider">
+      <obj_property name="label">branch ALU</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pipetop/nekoni/rv32dispatch/rv32branchalu/branchout">
+      <obj_property name="ElementShortName">branchout</obj_property>
+      <obj_property name="ObjectShortName">branchout</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pipetop/nekoni/rv32dispatch/rv32branchalu/val1">
+      <obj_property name="ElementShortName">val1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">val1[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pipetop/nekoni/rv32dispatch/rv32branchalu/val2">
+      <obj_property name="ElementShortName">val2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">val2[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pipetop/nekoni/rv32dispatch/rv32branchalu/aluop">
+      <obj_property name="ElementShortName">aluop[4:0]</obj_property>
+      <obj_property name="ObjectShortName">aluop[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider854" type="divider">
+      <obj_property name="label">UART</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pipetop/UART_transmit/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pipetop/UART_transmit/TxD_start">
+      <obj_property name="ElementShortName">TxD_start</obj_property>
+      <obj_property name="ObjectShortName">TxD_start</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pipetop/UART_transmit/TxD_data">
+      <obj_property name="ElementShortName">TxD_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">TxD_data[7:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pipetop/UART_transmit/TxD">
+      <obj_property name="ElementShortName">TxD</obj_property>
+      <obj_property name="ObjectShortName">TxD</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pipetop/UART_transmit/TxD_busy">
+      <obj_property name="ElementShortName">TxD_busy</obj_property>
+      <obj_property name="ObjectShortName">TxD_busy</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pipetop/UART_transmit/BitTick">
+      <obj_property name="ElementShortName">BitTick</obj_property>
+      <obj_property name="ObjectShortName">BitTick</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pipetop/UART_transmit/TxD_state">
+      <obj_property name="ElementShortName">TxD_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">TxD_state[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pipetop/UART_transmit/TxD_ready">
+      <obj_property name="ElementShortName">TxD_ready</obj_property>
+      <obj_property name="ObjectShortName">TxD_ready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pipetop/UART_transmit/TxD_shift">
+      <obj_property name="ElementShortName">TxD_shift[7:0]</obj_property>
+      <obj_property name="ObjectShortName">TxD_shift[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pipetop/UART_transmit/ClkFrequency">
+      <obj_property name="ElementShortName">ClkFrequency[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ClkFrequency[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pipetop/UART_transmit/Baud">
+      <obj_property name="ElementShortName">Baud[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Baud[31:0]</obj_property>
+   </wvobject>
+</wave_config>
