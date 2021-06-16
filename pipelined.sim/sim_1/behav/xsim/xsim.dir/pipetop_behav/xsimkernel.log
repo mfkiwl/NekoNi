@@ -1,0 +1,7 @@
+Running: xsim.dir/pipetop_behav/xsimk -simmode gui -wdb pipetop_behav.wdb -simrunnum 0 -socket 44149
+Design successfully loaded
+Design Loading Memory Usage: 36868 KB (Peak: 36868 KB)
+Design Loading CPU Usage: 50 ms
+Simulation completed
+Simulation Memory Usage: 116908 KB (Peak: 176136 KB)
+Simulation CPU Usage: 3870 ms

@@ -1,0 +1,7 @@
+verilog xil_defaultlib --include "../../../ipstatic" \
+"../../../../pipelined.gen/sources_1/ip/masterclock/masterclock_clk_wiz.v" \
+"../../../../pipelined.gen/sources_1/ip/masterclock/masterclock.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

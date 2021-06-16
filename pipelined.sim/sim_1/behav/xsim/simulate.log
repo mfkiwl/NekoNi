@@ -1,0 +1,121 @@
+Vivado Simulator v2020.2.2
+Time resolution is 1 ps
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module pipetop.rv32iram.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+WARNING: 0ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:207
+WARNING: 0ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:228
+WARNING: 0ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:207
+WARNING: 0ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:207
+WARNING: 0ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:207
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module pipetop.rv32iram.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+WARNING: 0ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:207
+WARNING: 0ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:228
+WARNING: 0ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:207
+WARNING: 0ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:207
+WARNING: 0ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:207
+WARNING: 1005ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:228
+WARNING: 6217ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:207
+WARNING: 6257ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:228
+WARNING: 6449ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:207
+WARNING: 6489ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:228
+WARNING: 6681ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:207
+WARNING: 6721ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:228
+WARNING: 6913ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:207
+WARNING: 6953ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:228
+WARNING: 7145ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:207
+WARNING: 7185ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:228
+WARNING: 7377ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:207
+WARNING: 7417ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:228
+WARNING: 7609ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:207
+WARNING: 7649ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:228
+WARNING: 7841ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:207
+WARNING: 7881ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:228
+WARNING: 8073ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:207
+WARNING: 8113ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:228
+WARNING: 8305ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:207
+WARNING: 8345ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:228
+WARNING: 8537ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:207
+WARNING: 8577ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:228
+WARNING: 8769ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:207
+WARNING: 8809ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:228
+WARNING: 9001ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:207
+WARNING: 9041ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:228
+WARNING: 9233ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:207
+WARNING: 9273ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:228
+WARNING: 9465ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:207
+WARNING: 9505ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:228
+WARNING: 9697ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:207
+WARNING: 9737ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:228
+WARNING: 9929ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:207
+WARNING: 9969ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:228
+WARNING: 10161ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:207
+WARNING: 10201ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:228
+WARNING: 10393ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:207
+WARNING: 10433ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:228
+WARNING: 10625ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:207
+WARNING: 10665ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:228
+WARNING: 10857ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:207
+WARNING: 10897ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:228
+WARNING: 11089ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:207
+WARNING: 11129ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:228
+WARNING: 11321ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:207
+WARNING: 11361ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:228
+WARNING: 11553ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:207
+WARNING: 11593ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:228
+WARNING: 11785ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:207
+WARNING: 11825ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:228
+WARNING: 12017ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:207
+WARNING: 12057ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:228
+WARNING: 12249ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:207
+WARNING: 12289ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:228
+WARNING: 12481ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:207
+WARNING: 12521ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:228
+WARNING: 12713ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:207
+WARNING: 12753ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:228
+WARNING: 12945ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:207
+WARNING: 12985ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:228
+WARNING: 13177ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:207
+WARNING: 13217ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:228
+WARNING: 13409ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:207
+WARNING: 13449ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:228
+WARNING: 13641ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:207
+WARNING: 13681ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:228
+WARNING: 13873ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:207
+WARNING: 13913ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:228
+WARNING: 14105ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:207
+WARNING: 14145ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:228
+WARNING: 14337ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:207
+WARNING: 14377ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:228
+WARNING: 14569ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:207
+WARNING: 14609ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:228
+WARNING: 14801ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:207
+WARNING: 14841ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:228
+WARNING: 15033ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:207
+WARNING: 15073ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:228
+WARNING: 15265ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:207
+WARNING: 15305ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:228
+WARNING: 15497ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:207
+WARNING: 15537ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:228
+WARNING: 15729ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:207
+WARNING: 15769ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:228
+WARNING: 15961ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:207
+WARNING: 16001ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:228
+WARNING: 16193ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:207
+WARNING: 16233ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:228
+WARNING: 16425ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:207
+WARNING: 16465ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:228
+WARNING: 16657ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:207
+WARNING: 16697ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:228
+WARNING: 16889ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:207
+WARNING: 16929ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:228
+WARNING: 17121ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:207
+WARNING: 17161ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:228
+WARNING: 17353ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:207
+WARNING: 17393ns : none of the conditions were true for unique case from File:/media/engin/StorageA/FPGA/pipelined/pipelined.srcs/sources_1/new/pipetop.sv:228

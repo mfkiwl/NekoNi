@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/engin/StorageA/FPGA/pipelined/pipelined.gen/sources_1/ip/ififo/sim/ififo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ififo
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/engin/StorageA/FPGA/pipelined/pipelined.gen/sources_1/ip/iram/sim/iram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module iram
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/engin/StorageA/FPGA/pipelined/pipelined.gen/sources_1/ip/uartfifo/sim/uartfifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uartfifo
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/engin/StorageA/FPGA/pipelined/pipelined.gen/sources_1/ip/masterclock/masterclock_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module masterclock_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "/media/engin/StorageA/FPGA/pipelined/pipelined.gen/sources_1/ip/masterclock/masterclock.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module masterclock

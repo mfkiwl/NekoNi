@@ -1,0 +1,115 @@
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2.2 (lin64) Build 3118627 Tue Feb  9 05:13:49 MST 2021
+| Date         : Wed Jun 16 09:51:43 2021
+| Host         : encilinux running 64-bit Ubuntu 20.04.2 LTS
+| Command      : report_control_sets -verbose -file pipetop_control_sets_placed.rpt
+| Design       : pipetop
+| Device       : xc7a100t
+--------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    37 |
+|    Minimum number of control sets                        |    37 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |   107 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    37 |
+| >= 0 to < 4        |     6 |
+| >= 4 to < 6        |     3 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |     6 |
+| >= 10 to < 12      |     1 |
+| >= 12 to < 14      |     2 |
+| >= 14 to < 16      |     2 |
+| >= 16              |    17 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             217 |           72 |
+| No           | No                    | Yes                    |              43 |           14 |
+| No           | Yes                   | No                     |              35 |           15 |
+| Yes          | No                    | No                     |             208 |           88 |
+| Yes          | No                    | Yes                    |             100 |           23 |
+| Yes          | Yes                   | No                     |             218 |           90 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-------------------------------+---------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------+------------------+----------------+--------------+
+|          Clock Signal         |                                              Enable Signal                                              |                                                            Set/Reset Signal                                                            | Slice Load Count | Bel Load Count | Bels / Slice |
++-------------------------------+---------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------+------------------+----------------+--------------+
+|  systemclock/inst/uartbase    | UART_receive/tickgen/OversamplingTick                                                                   |                                                                                                                                        |                1 |              1 |         1.00 |
+|  systemclock/inst/uartbase    |                                                                                                         | UART_in_fifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/rst_d2                                                                        |                1 |              2 |         2.00 |
+|  systemclock/inst/masterclock |                                                                                                         | UART_out_fifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/rst_d2                                                                       |                1 |              2 |         2.00 |
+|  systemclock/inst/uartbase    |                                                                                                         | UART_out_fifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.sckt_rd_rst_ic_reg_0[0]           |                2 |              3 |         1.50 |
+|  systemclock/inst/masterclock |                                                                                                         | UART_in_fifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.rst_rd_reg2_inst/arststages_ff[1]  |                1 |              3 |         3.00 |
+|  systemclock/inst/uartbase    |                                                                                                         | UART_out_fifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.rst_rd_reg2_inst/arststages_ff[1] |                1 |              3 |         3.00 |
+|  systemclock/inst/masterclock | nekoni/rv32dispatch/opcode[6]_i_1_n_0                                                                   | nekoni/rv32dispatch/aluop[3]_i_1_n_0                                                                                                   |                3 |              4 |         1.33 |
+|  systemclock/inst/masterclock |                                                                                                         | nekoni/rv32dispatch/memwe[3]_i_1_n_0                                                                                                   |                1 |              4 |         4.00 |
+|  systemclock/inst/masterclock | nekoni/rv32fetchcontrol/FSM_onehot_fetchmachinestate[3]_i_2_n_0                                         | nekoni/rv32dispatch/SR[0]                                                                                                              |                1 |              4 |         4.00 |
+|  systemclock/inst/uartbase    | UART_transmit/tickgen/Acc_reg[15]_0[0]                                                                  |                                                                                                                                        |                3 |              8 |         2.67 |
+|  systemclock/inst/uartbase    | datatotransmit                                                                                          |                                                                                                                                        |                2 |              8 |         4.00 |
+|  systemclock/inst/uartbase    | UART_receive/tickgen/FSM_onehot_RxD_state_reg[2][0]                                                     |                                                                                                                                        |                3 |              8 |         2.67 |
+|  systemclock/inst/uartbase    | UART_receive/E[0]                                                                                       |                                                                                                                                        |                3 |              8 |         2.67 |
+|  systemclock/inst/uartbase    |                                                                                                         | UART_in_fifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst/arststages_ff[1]          |                2 |              9 |         4.50 |
+|  systemclock/inst/masterclock |                                                                                                         | UART_out_fifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst/arststages_ff[1]         |                2 |              9 |         4.50 |
+|  systemclock/inst/uartbase    | UART_receive/tickgen/E[0]                                                                               |                                                                                                                                        |                2 |             11 |         5.50 |
+|  systemclock/inst/uartbase    | UART_transmit/tickgen/E[0]                                                                              |                                                                                                                                        |                3 |             12 |         4.00 |
+|  systemclock/inst/masterclock |                                                                                                         | UART_in_fifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.sckt_rd_rst_ic_reg_0[0]            |                4 |             12 |         3.00 |
+|  systemclock/inst/masterclock | nekoni/rv32fetchcontrol/fetchaddress[15]_i_1_n_0                                                        | nekoni/rv32dispatch/SR[0]                                                                                                              |                4 |             14 |         3.50 |
+|  systemclock/inst/masterclock |                                                                                                         | nekoni/rv32dispatch/SR[0]                                                                                                              |                9 |             15 |         1.67 |
+|  systemclock/inst/uartbase    |                                                                                                         | UART_transmit/FSM_onehot_TxD_state_reg_n_0_[0]                                                                                         |                5 |             16 |         3.20 |
+|  systemclock/inst/masterclock | nekoni/rv32instructionfifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/E[0] | nekoni/rv32dispatch/SR[0]                                                                                                              |                4 |             18 |         4.50 |
+|  systemclock/inst/masterclock | nekoni/rv32instructionfifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/grss.rsts/E[0] | nekoni/rv32dispatch/SR[0]                                                                                                              |                5 |             18 |         3.60 |
+|  systemclock/inst/uartbase    | UART_out_fifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/E[0]              | UART_out_fifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.sckt_rd_rst_ic_reg_0[0]           |                4 |             20 |         5.00 |
+|  systemclock/inst/masterclock | UART_in_fifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/E[0]               | UART_in_fifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.gic_rst.sckt_rd_rst_ic_reg_0[0]            |                4 |             20 |         5.00 |
+|  systemclock/inst/uartbase    | UART_in_fifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/E[0]               | UART_in_fifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/AR[0]                                                                         |                8 |             30 |         3.75 |
+|  systemclock/inst/masterclock | UART_out_fifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/E[0]              | UART_out_fifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/AR[0]                                                                        |                7 |             30 |         4.29 |
+|  systemclock/inst/masterclock | nekoni/rv32fetchcontrol/PC[31]_i_1_n_0                                                                  | nekoni/rv32dispatch/SR[0]                                                                                                              |               10 |             32 |         3.20 |
+|  systemclock/inst/masterclock | nekoni/rv32dispatch/p_1_in                                                                              | nekoni/rv32dispatch/SR[0]                                                                                                              |               11 |             32 |         2.91 |
+|  systemclock/inst/masterclock | nekoni/rv32dispatch/rwren_i_1_n_0                                                                       | nekoni/rv32dispatch/SR[0]                                                                                                              |               29 |             32 |         1.10 |
+|  systemclock/inst/masterclock | nekoni/rv32dispatch/branchtarget[31]_i_1_n_0                                                            | nekoni/rv32dispatch/SR[0]                                                                                                              |               14 |             32 |         2.29 |
+|  systemclock/inst/masterclock | nekoni/rv32dispatch/memaddress[31]_i_1_n_0                                                              | nekoni/rv32dispatch/SR[0]                                                                                                              |                9 |             32 |         3.56 |
+|  systemclock/inst/masterclock | nekoni/rv32fetchcontrol/ififodin[63]_i_1_n_0                                                            |                                                                                                                                        |               25 |             64 |         2.56 |
+|  systemclock/inst/masterclock | nekoni/rv32dispatch/opcode[6]_i_1_n_0                                                                   |                                                                                                                                        |               46 |             88 |         1.91 |
+|  systemclock/inst/masterclock | nekoni/rv32dispatch/p_2_in                                                                              |                                                                                                                                        |               12 |             96 |         8.00 |
+|  systemclock/inst/masterclock |                                                                                                         |                                                                                                                                        |               34 |             98 |         2.88 |
+|  systemclock/inst/uartbase    |                                                                                                         |                                                                                                                                        |               38 |            119 |         3.13 |
++-------------------------------+---------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------+------------------+----------------+--------------+
+
+
